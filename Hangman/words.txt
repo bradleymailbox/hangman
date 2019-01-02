@@ -1,0 +1,10 @@
+help
+today
+programmer
+word
+feedback
+python
+coder
+github
+developer
+hangman
