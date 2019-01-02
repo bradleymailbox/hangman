@@ -5,7 +5,8 @@ msgs = ['Welcome to Hangman - Lets play a round',
         'Please enter a letter you wish to guess:',
         'You have already guessed that letter',
         'Validating the letter entered',
-        'Number of guesses made:'
+        'Number of guesses made:',
+        'Oops the letter guessed is not part of the word'
     
 ]
 # display a message from the msgs list
