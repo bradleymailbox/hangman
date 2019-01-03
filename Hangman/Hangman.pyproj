@@ -22,10 +22,16 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="ascii_print.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="codemodule.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Hangman.py" />
+    <Compile Include="printmodule.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="words.txt" />

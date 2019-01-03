@@ -1,21 +1,6 @@
 import random
 # variables
 dict = "words.txt"
-msgs = ['Welcome to Hangman - Lets play a round',
-        'Please enter a letter you wish to guess:',
-        'You have already guessed that letter',
-        'Validating the letter entered',
-        'Number of guesses made:',
-        'Oops the letter guessed is not part of the word'
-    
-]
-# display a message from the msgs list
-def printmsg(m):
-    print msgs[m]
-
-# print the number of guesses the user has made
-def print_guesses(x):
-    print msgs[m]
 
 # get the list of words
 def getwords():
@@ -28,7 +13,7 @@ def getwords():
 
 # get a random value : maximum passed 
 def getRandomValue(max):
-    return random.randint(1,max)
+    return random.randint(0,max-1)
 
 #print the word
 def printWord(compword, guessed_letters):
@@ -36,5 +21,8 @@ def printWord(compword, guessed_letters):
         if g not in guessed_letters:
             compword = compword.replace(g, "#")        
     return compword
-    
+
+def print_guesses(gl):
+    for ele in enumerate(gl): 
+        print ele 
     
